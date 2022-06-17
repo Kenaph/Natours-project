@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "browserslist": "last 10 versions",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "concat": "^1.0.3",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0"
+  }
+}
